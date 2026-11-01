@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0, maximum-scale=1.0" />
+  <title>Marius 15 år!</title>
+  <style>
+    body{display:flex;background:#000;color:#eee;margin:0;padding:0;font-family:helvetica,arial,verdana;
+      &::before{content:"";position:absolute;left:0;right:0;top:0;bottom:0;background:url(poster.jpg) no-repeat 50% 50%;background-size:cover;filter:blur(100px);z-index:-1;}
+    }
+    h1{position:absolute;left:0;right:0;top:0;display:flex;justify-content:center;align-items:center;font-size:min(8vw,40px);line-height:normal;text-align:center;background:url(flag.svg) no-repeat 97% 50%,url(flag.svg) no-repeat 3% 50%;background-size:auto 50%, auto 50%;background-color:rgba(0, 0, 0, .4);padding:min(5vw,10px);line-height:normal;margin:0 auto min(3vw,25px);padding:min(1vw,10px) 0;margin:min(3vw,20px);border-radius:min(3vw,20px);}
+    main{position:relative;height:100dvh;margin:0 auto;}
+    video{aspect-ratio:9/16;display:block;height:100%;max-width:100%;}
+    article{position:absolute;left:0;right:0;bottom:0;background:rgba(0, 0, 0, .5);padding:min(3vw,20px) min(3vw,20px) 0;margin:0 min(3vw,20px) min(20vw,60px);border-radius:min(3vw,20px);}
+    p{font-size:min(6vw,25px);padding:0 min(3vw,20px) min(3vw,20px);max-width:640px;margin:0 auto;}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Marius 15 år!</h1>
+    <video src="marius.mp4" poster="poster.jpg" controls playsinline preload="none"></video>
+    <article>
+      <p>I er inviteret til min 15 års fødselsdag hjemme hos mig søndag den 11. oktober kl. 11 til boller og kage.</p>
+      <p>Kærlig hilsen <strong>Marius</strong></p>
+    </article>
+  </main>
+</body>
+</html>
